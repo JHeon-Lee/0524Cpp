@@ -139,9 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Desktop\Math.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\stdafx.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Timer.h" />
     <ClInclude Include="08_Calc.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Desktop\11_avoidingStar.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\Main.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\Math.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\stdafx.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\Timer.cpp" />
     <ClCompile Include="08_Calc.cpp" />
     <ClCompile Include="08_class_header_and_code.cpp" />
   </ItemGroup>
