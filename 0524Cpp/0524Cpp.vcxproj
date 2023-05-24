@@ -140,9 +140,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\Desktop\Math.h" />
-    <ClInclude Include="..\..\..\..\..\Desktop\stdafx.h" />
-    <ClInclude Include="..\..\..\..\..\Desktop\Timer.h" />
     <ClInclude Include="08_Calc.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Timer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\Desktop\11_avoidingStar.cpp" />
