@@ -22,7 +22,9 @@ struct Player
 void gotoxy(int x, int y)
 {
     COORD pos = { x * 2, y };
+    // 2 * x 인 이유는 1씩 이동하는것보다 2씩 이동하는게 더 자연스러워 보이기 때문
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
+    // GetStdHandle : 콘솔창 핸들
 }
 
 Star star[WIDTH];
@@ -48,7 +50,7 @@ void createStar()
             star[i].x = rand() % WIDTH;
             star[i].y = 0;
             star[i].isStar = true;
-            return;
+            break;
         }
     }
 }
